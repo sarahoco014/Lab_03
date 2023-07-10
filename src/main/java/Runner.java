@@ -31,6 +31,9 @@ public class Runner {
         System.out.println("The index position of Skye in ArrayList is: " + scottishIslands.indexOf("Skye"));
 
 //        5. Remove "Tresco" from the list by name
+
+        scottishIslands.remove("Tresco");
+
 //        6. Remove "Arran" from the list by index
 //        7. Print the number of islands in your arraylist
 //        8. Sort the list alphabetically
