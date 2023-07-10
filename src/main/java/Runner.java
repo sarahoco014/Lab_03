@@ -50,7 +50,7 @@ public class Runner {
 
 //        9. Print out all the islands using a for loop
 
-        for(String scottishIsland : scottishIslands) {
+        for (String scottishIsland : scottishIslands) {
             System.out.println(scottishIslands);
         }
 
@@ -63,7 +63,7 @@ public class Runner {
 //        1. Print out a list of the even integers
 
         for (int number : numbers) {
-            if(number % 2 == 0) {
+            if (number % 2 == 0) {
                 System.out.println(number);
             }
         }
@@ -72,10 +72,10 @@ public class Runner {
 
         int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
 
-        for(int number : numbers) {
-            if(number < min)
+        for (int number : numbers) {
+            if (number < min)
                 min = number;
-            if(number > max)
+            if (number > max)
                 max = number;
         }
 
@@ -96,7 +96,13 @@ public class Runner {
 
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
 
-
+        for (int i = 0; i < numbers.size() - 1; i++) {
+            System.out.println("index: "+i);
+            System.out.println("val at index: "+numbers.get(i));
+            if (numbers.get(i).equals(numbers.get(i + 1))) {
+                System.out.println(String.valueOf(true));
+            }
+        }
 
 //        4. Print the sum of the numbers,
 //        5. Print the sum of the numbers...
