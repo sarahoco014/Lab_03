@@ -120,9 +120,8 @@ public class Runner {
 //
 //          So [2, 7, 13, 2] would have sum of 9.
 
-        int pos13 = numbers.indexOf(13);
-        System.out.println("The index position of 13 in ArrayList is: " + pos13);
-        
+        System.out.println("The index position of 13 in ArrayList is: " + numbers.indexOf(13));
+
         int sum2 = 0;
 
         for(int i = 0; i < numbers.size(); i++) {
