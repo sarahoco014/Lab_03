@@ -16,7 +16,7 @@ public class Runner {
 
 //        1. Add "Coll" to the end of the list
 
-//        text to test commit    
+        scottishIslands.add("Coll");    
 
 //        2. Add "Tiree" to the start of the list
 //        3. Add "Islay" after "Jura" and before "Mull"
