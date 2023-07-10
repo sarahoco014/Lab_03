@@ -72,7 +72,7 @@ public class Runner {
 
         int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
 
-        for(int number: numbers) {
+        for(int number : numbers) {
             if(number < min)
                 min = number;
             if(number > max)
@@ -81,7 +81,23 @@ public class Runner {
 
         System.out.println("The difference between the largest and smallest value is " + (max - min));
 
+//        int min = numbers[0];
+//        int max = numbers[0];
+//        int diff = 0;
+//
+//        for(int i = 0; i < numbers.size(); i++) {
+//            if(numbers[i] < min)
+//                min = numbers[i];
+//            if(numbers[i] > max)
+//                max = numbers[i];
+//        }
+//        diff = max - min;
+//        System.out.println("The difference between the largest and smallest value is " + diff);
+
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
+
+
+
 //        4. Print the sum of the numbers,
 //        5. Print the sum of the numbers...
 //           ...except the number 13 is unlucky, so it does not count...
