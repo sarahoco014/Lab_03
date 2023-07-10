@@ -50,7 +50,9 @@ public class Runner {
 
 //        9. Print out all the islands using a for loop
 
-        System.out.println(scottishIslands);
+        for(String scottishIsland : scottishIslands) {
+            System.out.println(scottishIslands);
+        }
 
 //        NUMBERS
         List<Integer> numbers = new ArrayList<>();
