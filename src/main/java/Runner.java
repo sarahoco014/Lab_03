@@ -69,6 +69,18 @@ public class Runner {
         }
 
 //        2. Print the difference between the largest and smallest value
+
+        int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+
+        for(int number: numbers) {
+            if(number < min)
+                min = number;
+            if(number > max)
+                max = number;
+        }
+
+        System.out.println("The difference between the largest and smallest value is " + (max - min));
+
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
 //        4. Print the sum of the numbers,
 //        5. Print the sum of the numbers...
