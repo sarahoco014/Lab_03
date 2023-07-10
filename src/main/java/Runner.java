@@ -39,6 +39,10 @@ public class Runner {
         scottishIslands.remove(5);
 
 //        7. Print the number of islands in your arraylist
+
+        int length = scottishIslands.size();
+        System.out.println(length);
+
 //        8. Sort the list alphabetically
 //        9. Print out all the islands using a for loop
 
