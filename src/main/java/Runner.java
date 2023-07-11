@@ -51,8 +51,10 @@ public class Runner {
 //        9. Print out all the islands using a for loop
 
         for (String scottishIsland : scottishIslands) {
-            System.out.println(scottishIslands);
+            System.out.println(scottishIsland);
         }
+
+        System.out.println(scottishIslands);
 
 //        NUMBERS
         List<Integer> numbers = new ArrayList<>();
@@ -62,11 +64,14 @@ public class Runner {
 
 //        1. Print out a list of the even integers
 
+        List<Integer> evenNumbers = new ArrayList<>(); // creates empty arraylist
         for (int number : numbers) {
             if (number % 2 == 0) {
                 System.out.println(number);
             }
         }
+
+        System.out.println("even numbers: " + evenNumbers);
 
 //        2. Print the difference between the largest and smallest value
 
@@ -81,19 +86,11 @@ public class Runner {
 
         System.out.println("The difference between the largest and smallest value is " + (max - min));
 
-//        int min = numbers[0];
-//        int max = numbers[0];
-//        int diff = 0;
+//        int min = Collections.min(numbers);
+//        int max = Collections.max(numbers);
+//        int diff = maxNumber - minNumber;
+//        System.out.println(diff); // alternative solution
 //
-//        for(int i = 0; i < numbers.size(); i++) {
-//            if(numbers[i] < min)
-//                min = numbers[i];
-//            if(numbers[i] > max)
-//                max = numbers[i];
-//        }
-//        diff = max - min;
-//        System.out.println("The difference between the largest and smallest value is " + diff);
-
 //        3. Print True if the list contains a 1 next to a 1 somewhere.
 
         for (int i = 0; i < numbers.size() - 1; i++) {
@@ -109,7 +106,7 @@ public class Runner {
         int sum = 0;
 
         for(int i = 0; i < numbers.size(); i++) {
-            sum = sum + numbers.get(i);
+            sum = sum + numbers.get(i); // or sum += numbers.get(i);
         }
 
         System.out.println("Sum of all elements in the array: " + sum);
